@@ -115,10 +115,13 @@
 				inline-size:600px;
 				max-inline-size:90%;
 			}
+			/*
 			& h4{
 				margin-block-end:0;
 			}
-			& img{
+			*/
+			img{
+				display:block;
 				/*
 				margin-block-end:16px;
 				*/
@@ -189,6 +192,35 @@
 </div>
 <h3 class=sampleheader>CodeCampの課題</h3>
 <div class=work>
+	<style>
+		@scope{
+			&{
+				/*
+				margin-block:4px;
+				*/
+				margin-inline:auto;
+				inline-size:600px;
+				max-inline-size:90%;
+			}
+			/*
+			& h4{
+				margin-block-end:0;
+			}
+			*/
+			img{
+				display:block;
+				/*
+				margin-block-end:16px;
+				*/
+				inline-size:100%;
+			}
+			/*
+			& p{
+				margin-block-end:32px;
+			}
+			*/
+		}
+	</style>
 	<div>
 		<h4>ルーレット（JavaScript）</h4>
 		<a href=JavaScript/roulette.html><img src=images/ルーレット.png></a>

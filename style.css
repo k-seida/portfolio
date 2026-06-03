@@ -52,6 +52,16 @@
 	font-feature-settings:"palt";
 }
 
+/*
+&>:where(body){
+	display:flex;
+	flex-direction:column;
+	row-gap:1rem;
+	padding-block:calc(.5rlh + .5rem);
+	padding-inline:1rlh
+}
+*/
+
 /*改修 ここから*/
 
 &{
@@ -69,10 +79,8 @@ p:not(.self-introduction){
 p.self-introduction{
 	font-size:16px;letter-spacing:2px;line-height:32px;margin-left:auto;margin-right:auto;width:600px;max-width:90%;
 }
-img{
-	display:block;
-}
 img.img01{
+	display:block;
 	margin-left:auto;margin-right:auto;max-width:90%;
 }
 h3{
@@ -109,7 +117,7 @@ div.gallery>div>*{
 	margin-left:auto;margin-right:auto;width:90%;
 }
 h4{
-	background:#758baf;color:#fff;font-size:14px;text-align:center;
+	background:#78a;color:#fff;font-size:14px;text-align:center;
 }
 div.gallery h4{
 	letter-spacing:6px;margin-top:0;margin-bottom:4px;
