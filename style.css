@@ -63,9 +63,6 @@
 	margin-block-start:5rem;
 }
 
-div.top{
-	background-image:url(images/top.jpg);background-position:center;background-size:cover;height:calc(40vh - 80px);width:100%;
-}
 h2{
 	color:#4b52a7;font-size:24px;margin-top:80px;margin-bottom:40px;text-align:center;
 }
