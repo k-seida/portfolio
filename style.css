@@ -87,10 +87,6 @@ p.self-introduction{
 	margin-inline:auto;
 	inline-size:min(600px,90%);
 }
-h3{
-	font-size:unset;
-	text-align:center;
-}
 div.skill{
 	display:flex;justify-content:space-between;margin:40px auto 80px;max-width:90%;width:1024px;
 }
@@ -99,15 +95,6 @@ div.skill>div{
 }
 div.skill>div>h3{
 	border-bottom:solid 1px #fff;margin:20px;padding-bottom:10px;
-}
-ul{
-	color:#feffc7;margin-top:20px;margin-bottom:20px;
-}
-li{
-	min-height:30px;
-}
-li a{
-	color:inherit;
 }
 h3.sampleheader{
 	border-bottom:solid 1px #b7b7b7;color:#32839c;margin:80px auto 40px;padding-bottom:6px;width:1024px;max-width:90%;

@@ -78,8 +78,28 @@
 <img class=img01 src=images/img01.jpg>
 <div class=skill>
 	<div>
-		<h3>スキル<br><small>Skills</small></h3>
+		<h3><style>
+			@scope{
+				&{
+					font-size:unset;
+					text-align:center;
+				}
+			}
+		</style>スキル<br><small>Skills</small></h3>
 		<ul>
+			<style>
+				@scope{
+					/*
+					&{
+						margin-block:20px;
+					}
+					*/
+					li{
+						list-style-position:unset;
+						min-block-size:30px;
+					}
+				}
+			</style>
 			<li>HTML・CSS</li>
 			<li>JavaScript</li>
 			<li>Google Apps Script</li>
@@ -103,7 +123,14 @@
 		}
 	}
 </style>実装サンプル<br><small>Sample</small></h2>
-<h3 class=sampleheader>自作作品</h3>
+<h3 class=sampleheader><style>
+	@scope{
+		&{
+			font-size:unset;
+			text-align:center;
+		}
+	}
+</style>自作作品</h3>
 <div class=work>
 	<style>
 		@scope{
@@ -189,7 +216,14 @@
 		<p>（5n−1）分の時刻に、アラートが表示されます。過集中対策に役立ちます。（Windowsのみ可）（ソースコードは<a href=https://github.com/k-seida/portfolio/blob/main/セルフケアタイマー.vbs>こちら</a>です。）</p>
 	</div>
 </div>
-<h3 class=sampleheader>CodeCampの課題</h3>
+<h3 class=sampleheader><style>
+	@scope{
+		&{
+			font-size:unset;
+			text-align:center;
+		}
+	}
+</style>CodeCampの課題</h3>
 <div class=work>
 	<style>
 		@scope{
