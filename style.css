@@ -115,9 +115,6 @@ div.gallery p{
 	font-size:12px;line-height:20px;
 }
 @media(max-width:768px){
-	body{
-		margin:48px 0 0;
-	}
 	h2{
 		font-size:20px;
 	}
