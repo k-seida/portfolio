@@ -62,15 +62,15 @@
 
 /*改修 ここから*/
 
-body{
-	font-family:arial,sans-serif;margin:80px 0 0;
+&{
+	font-family:arial,sans-serif;
+	scroll-behavior:smooth;
 }
-header{
-	background:#000c;color:#fff;height:40px;line-height:40px;margin-top:-80px;padding:20px;position:fixed;width:calc(100% - 40px);
+
+&>:where(body){
+	margin:80px 0 0;
 }
-header *{
-	display:inline-block;
-}
+
 h1{
 	font-size:24px;margin-top:0;margin-bottom:0;
 }
