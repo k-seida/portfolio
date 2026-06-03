@@ -45,6 +45,7 @@
 
 &{
 	line-height:1.5;
+	-webkit-locale:"ja";
 }
 
 &:where(:lang(ja)){
