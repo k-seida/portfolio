@@ -69,10 +69,6 @@
 	scroll-behavior:smooth;
 }
 
-&>:where(body){
-	margin-block-start:3.5rem;
-}
-
 :where(img):where(.img01){
 	display:block;
 	margin-inline:auto;
