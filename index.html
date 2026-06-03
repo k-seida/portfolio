@@ -36,8 +36,13 @@
 			@scope{
 				&{
 					column-gap:1rem;
-					display:flex;
 					float:right;
+					@media not(max-width:768px){
+						display:flex;
+					}
+					@media(max-width:768px){
+						display:none;
+					}
 				}
 			}
 		</style>
@@ -49,11 +54,19 @@
 	<style>
 		@scope{
 			&{
-				background-image:url(images/top.jpg);
 				background-position:center;
 				background-size:cover;
+				block-size:calc(100vh - 3.5rem);
+				/*
 				block-size:calc(40vh - 5rem);
+				*/
 				inline-size:100%;
+				@media not(max-width:768px){
+					background-image:url(images/top.jpg);
+				}
+				@media(max-width:768px){
+					background-image:url(images/top_tab.jpg);
+				}
 			}
 		}
 	</style>
