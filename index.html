@@ -13,7 +13,8 @@
 				padding-inline:1rem;
 				position:fixed;
 				inline-size:calc(100% - 2rem);
-				@media(prefers-color-scheme:dark){
+				@media not (prefers-color-scheme:dark){
+					color:initial;
 					color-scheme:dark;
 				}
 			}
