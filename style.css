@@ -74,20 +74,21 @@
 }
 
 p:not(.self-introduction){
-	margin-top:0;margin-bottom:0;
+	margin-block:0;
 }
 p.self-introduction{
-	font-size:16px;letter-spacing:2px;line-height:32px;margin-left:auto;margin-right:auto;width:600px;max-width:90%;
+	line-height:2;
+	margin-inline:auto;
+	inline-size:min(600px,90%);
 }
 img.img01{
 	display:block;
-	margin-left:auto;margin-right:auto;max-width:90%;
+	margin-inline:auto;
+	max-width:90%;
 }
 h3{
-	font-size:16px;letter-spacing:4px;text-align:center;
-}
-h3>small{
-	font-size:12px;
+	font-size:unset;
+	text-align:center;
 }
 div.skill{
 	display:flex;justify-content:space-between;margin:40px auto 80px;max-width:90%;width:1024px;
