@@ -73,6 +73,12 @@
 	margin-block-start:5rem;
 }
 
+:where(img):where(.img01){
+	display:block;
+	margin-inline:auto;
+	max-width:90%;
+}
+
 p:not(.self-introduction){
 	margin-block:0;
 }
@@ -80,11 +86,6 @@ p.self-introduction{
 	line-height:2;
 	margin-inline:auto;
 	inline-size:min(600px,90%);
-}
-img.img01{
-	display:block;
-	margin-inline:auto;
-	max-width:90%;
 }
 h3{
 	font-size:unset;
