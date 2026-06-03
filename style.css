@@ -129,9 +129,6 @@ div.work img{
 div.work p{
 	margin-bottom:32px;letter-spacing:2px;
 }
-footer{
-	background:#8ab3dc;color:#fff;height:100px;margin-top:120px;padding-top:20px;text-align:center;
-}
 @media(max-width:768px){
 	body{
 		margin:48px 0 0;
