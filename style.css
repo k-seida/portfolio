@@ -52,14 +52,6 @@
 	font-feature-settings:"palt";
 }
 
-&>:where(body){
-	display:flex;
-	flex-direction:column;
-	row-gap:1rem;
-	padding-block:calc(.5rlh + .5rem);
-	padding-inline:1rlh;
-}
-
 /*改修 ここから*/
 
 &{
