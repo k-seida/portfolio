@@ -117,18 +117,6 @@ div.gallery h4{
 div.gallery p{
 	font-size:12px;line-height:20px;
 }
-div.work{
-	margin:4px auto;width:600px;max-width:90%;
-}
-div.work h4{
-	letter-spacing:2px;margin-bottom:0;
-}
-div.work img{
-	margin-bottom:16px;width:100%;
-}
-div.work p{
-	margin-bottom:32px;letter-spacing:2px;
-}
 @media(max-width:768px){
 	body{
 		margin:48px 0 0;

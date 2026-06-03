@@ -7,12 +7,12 @@
 		@scope{
 			&{
 				background:#000c;
-				line-height:40px;
-				margin-block-start:-80px;
-				padding:20px;
+				line-height:2.5rem;
+				margin-block-start:-5rem;
+				padding:1.25rem;
 				position:fixed;
-				block-size:40px;
-				inline-size:calc(100% - 40px);
+				block-size:2.5rem;
+				inline-size:calc(100% - 2.5rem);
 				@media not(prefers-color-scheme:dark){
 					color-scheme:dark;
 				}
@@ -24,8 +24,10 @@
 			&{
 				display:inline-block;
 				font-size:1.5rem;
+				/*
 				margin-block-start:0;
 				margin-block-end:0;
+				*/
 			}
 			&::first-letter{
 				color:#aaf;
@@ -64,8 +66,10 @@
 		&{
 			color:#55a;
 			font-size:1.5rem;
+			/*
 			margin-block-start:5rem;
 			margin-block-end:2.5rem;
+			*/
 			text-align:center;
 		}
 	}
@@ -91,14 +95,42 @@
 		&{
 			color:#55a;
 			font-size:1.5rem;
+			/*
 			margin-block-start:5rem;
 			margin-block-end:2.5rem;
+			*/
 			text-align:center;
 		}
 	}
 </style>実装サンプル<br><small>Sample</small></h2>
 <h3 class=sampleheader>自作作品</h3>
 <div class=work>
+	<style>
+		@scope{
+			&{
+				/*
+				margin-block:4px;
+				*/
+				margin-inline:auto;
+				inline-size:600px;
+				max-inline-size:90%;
+			}
+			& h4{
+				margin-block-end:0;
+			}
+			& img{
+				/*
+				margin-block-end:16px;
+				*/
+				inline-size:100%;
+			}
+			/*
+			& p{
+				margin-block-end:32px;
+			}
+			*/
+		}
+	</style>
 	<div>
 		<h4>文字列変換ツール.html</h4>
 		<a href=自作HTML/文字列変換ツール.html><img src=images/文字列変換ツール.png></a>
